@@ -1,6 +1,6 @@
 att.PrintName = "9mm 35rnd"
 att.Icon = Material("entities/acwatt_car15_9mm.png")
-att.Description = "Your assault rifle has been converted to fire 9x19mm Parabellum rounds, effectively making it an SMG."
+att.Description = "9x19mm Parabellum conversion kit for AR-15 platform firearms. Smaller caliber decreases recoil and increases magazine capacity, but hinders damage and penetration."
 att.Desc_Pros = {
 }
 att.Desc_Cons = {

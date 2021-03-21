@@ -2,7 +2,7 @@
 
 sound.Add( {
     name = "ArcCW_BO1.M16_Fire",
-    channel = CHAN_WEAPON,
+    channel = CHAN_STATIC,
     volume = 1.0,
     level = 100,
     pitch = {95, 110},
@@ -35,7 +35,7 @@ sound.Add( {
     level = 100,
     pitch = {95, 110},
     sound = {
-        "weapons/arccw/bo1_m16/m16_mag_in.wav",
+        "weapons/arccw_osi/arx/magin.wav",
     }
 } )
 sound.Add( {
@@ -45,7 +45,7 @@ sound.Add( {
     level = 100,
     pitch = {95, 110},
     sound = {
-        "weapons/arccw/bo1_m16/m16_mag_out.wav",
+        "weapons/arccw_osi/arx/magout.wav",
     }
 } )
 sound.Add( {
@@ -53,9 +53,9 @@ sound.Add( {
     channel = CHAN_ITEM,
     volume = 1.0,
     level = 100,
-    pitch = {95, 110},
+    pitch = 100,
     sound = {
-        "weapons/arccw/bo1_m16/m16_button.wav",
+        "weapons/arccw/kali/kali_chamber.wav",
     }
 } )
 sound.Add( {
@@ -78,7 +78,26 @@ sound.Add( {
         "weapons/arccw/bo1_m16/m16_futz.wav",
     }
 } )
-
+sound.Add( {
+    name = "ArcCW_BO1.KALI_Fire",
+    channel = CHAN_WEAPON,
+    volume = 1.0,
+    level = 100,
+    pitch = {95, 110},
+    sound = {
+        "weapons/arccw/kali/kali_fire.wav",
+    }
+} )
+sound.Add( {
+    name = "ArcCW_BO1.KALI_Dist",
+    channel = CHAN_STATIC,
+    volume = 1.0,
+    level = 100,
+    pitch = {95, 110},
+    sound = {
+        "weapons/arccw/kali/kali_fire_dist.wav",
+    }
+} )
 --- AUG Main ---
 
 sound.Add( {

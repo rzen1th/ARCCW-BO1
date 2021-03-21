@@ -1,6 +1,6 @@
 att.PrintName = "Pack-A-Punch (Alt)"
 att.Icon = Material("entities/acwatt_ammo_papunch.png")
-att.Description = "Bullets or Shells infused with Element 115 which perform better than base weapons with no drawbacks. The magazine capacity is also altered. This one doesn't have the sound."
+att.Description = "Mysterious rounds infused with Element 115 perform better than base weapons with no drawbacks. Improves magazine capacity, damage, and penetration. No visual difference from base weapon."
 att.Desc_Pros = {
     "+ Extended Magazine."
 }

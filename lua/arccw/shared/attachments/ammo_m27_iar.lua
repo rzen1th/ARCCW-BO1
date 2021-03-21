@@ -1,6 +1,6 @@
 att.PrintName = "5.56mm IAR 60rnd"
 att.Icon = Material("entities/acwatt_bo1_ext_mag.png")
-att.Description = "Massive 60 round magazine for your IAR."
+att.Description = "Larger, quad-stack magazine increases magazine capacity to 60, but decrease reload speed by 50%."
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
